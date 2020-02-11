@@ -1,6 +1,6 @@
 module Bix
   module Repos
-    class User < ROM::Repository[:users]
+    class UserRepo < ROM::Repository[:users]
       include Import["container"]
 
       struct_namespace Bix
